@@ -1,0 +1,32 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='instatory',
+    version='0.1.0',
+    author='Your Name',
+    description='A brief description of the project',
+    packages=find_packages(),
+    install_requires=[
+        'tensorflow',
+        'keras',
+        'pillow',
+        'numpy',
+        'openai',
+        'sqlite3',
+        'requests',
+        'pandas',
+        'tqdm',
+        'base64',
+        'flask',
+        'blinker',
+        'itsdangerous',
+        'tiktoken',
+        'urllib3',
+        'tomlkit',
+        'tenacity',
+        'regex',
+        'pytz',
+        'isort',
+        'astroid',
+    ],
+)
